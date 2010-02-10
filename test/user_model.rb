@@ -1,5 +1,5 @@
 class User
-  COLUMNS = ["id", "name", "age"]
+  COLUMNS = ["id", "name", "age", "birth_date"]
   
   COLUMNS.each {|column| attr_reader column }
   
